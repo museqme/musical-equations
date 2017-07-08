@@ -2,14 +2,20 @@ body, html {
     height: 100%;
     margin: 0;
 }
+img {
+  width: 8%;
+  height: auto;
+  padding: 2em;
+}
 nav {
   display: inline;
   font-family: 'Comfortaa', cursive;
   padding: 1em;
+  color: #0565aa;
 }
 .menu {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 3em;
+  padding-bottom: 1em;
   position: absolute;
   top: 1em;
   right: 2em;
@@ -17,15 +23,15 @@ nav {
 
 }
 h1 {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Satisfy', cursive;
   color: #0565aa;
-  font-size: 3em;
-  background-color: #ffffff;
-  padding: 1em;
-  border-width: medium;
+  font-size: 4em;
+  background-color: rgba(255, 255, 255, .7);
+  padding: .5em;
+  border-radius: .2em;
 }
 h4, h3 {
-  font-family: 'Jura', sans-serif;
+  font-family: 'Comfortaa', cursive;
   color: #0565aa;
   align-items: center;
 }
@@ -33,16 +39,16 @@ h3 {
   text-align: center;
   letter-spacing: .3em;
   font-family: 'Comfortaa', cursive;
-  color: #ffffff;
-  font-size: 4em;
+  color: #0565aa;
+  font-size: 2em;
 }
 .statement {
-  background-color:#0565aa;
-  padding-top: 2em;
+  background-color: #ffffff;
+  padding-top: 1em;
   padding-bottom: 2em;
 }
 .hero {
-  margin-top: 5em;
+  margin-top: 2em;
   background-image: url("imgs/home/hero .png");
   height: 50%;
   background-position: center;
@@ -58,4 +64,12 @@ h3 {
   transform: translate(-50%, -50%);
   color: white;
 
+}
+h5 {
+  font-size: 1em;
+  font-family: 'Comfortaa', cursive;
+  color: #0565aa;
+  padding-bottom: 1em;
+  position: relative;
+  bottom: 5em;
 }
