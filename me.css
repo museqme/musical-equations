@@ -3,10 +3,9 @@ body, html {
     margin: 0;
 }
 img {
-  width: 6%;
+  width: 8%;
   height: auto;
   padding: 2em;
-  z-index: 10;
 }
 nav {
   display: inline;
@@ -50,7 +49,7 @@ h3 {
 }
 .hero {
   margin-top: 2em;
-  background-image: url("imgs/home/hero .jpg");
+  background-image: url("imgs/home/hero .png");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,4 +64,12 @@ h3 {
   transform: translate(-50%, -50%);
   color: white;
 
+}
+h5 {
+  font-size: 1em;
+  font-family: 'Comfortaa', cursive;
+  color: #0565aa;
+  padding-bottom: 1em;
+  position: relative;
+  bottom: 5em;
 }
