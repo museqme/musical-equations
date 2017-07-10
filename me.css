@@ -31,7 +31,7 @@ h1 {
   color: #0565aa;
   font-size: 4em;
   background-color: rgba(255, 255, 255, .7);
-  padding: .5em;
+  padding: .8em;
   border-radius: .2em;
 }
 h4, h3 {
@@ -42,14 +42,24 @@ h4, h3 {
 h3 {
   text-align: center;
   letter-spacing: .3em;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Passion One', cursive;
   color: #0565aa;
-  font-size: 2em;
+  font-size: 4em;
 }
 .statement {
   background-color: #ffffff;
   padding-top: 4em;
   padding-bottom: 2em;
+}
+.learnBanner {
+  font-family: 'Comfortaa', cursive;
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  background-color: #0565aa;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
 }
 .hero {
   margin-top: 2em;
@@ -78,25 +88,71 @@ h5 {
   bottom: 5em;
 }
 .infoFlip {
+  position: relative;
+  background-image: url("imgs/home/programs.png");
+  background-size: cover;
   width: 30em;
   height: 25em;
-  background-color: grey;
+}
+.programs {
+  font-size: 4em;
+  position: absolute;
+   margin: auto;
+   top: 0;
+   left:0;
+   right:0;
+   bottom:0;
+   color:#fff;
+   height:200px;
 }
 .infoFlip2 {
+  position: relative;
+  background-image: url("imgs/home/business.png");
+  background-size: cover;
   width: 30em;
   height: 25em;
   background-color: grey;
 }
+.business {
+  font-size: 4em;
+  position: absolute;
+   margin: auto;
+   top: 0;
+   left:0;
+   right:0;
+   bottom:0;
+   color:#fff;
+   height:200px;
+}
 .infoFlip3 {
+  position: relative;
+  background-image: url("imgs/home/industry.png");
+  background-size: cover;
   width: 30em;
   height: 25em;
   background-color: grey;
+}
+.industry {
+  font-size: 4em;
+  position: absolute;
+   margin: auto;
+   top: 0;
+   left:0;
+   right:0;
+   bottom:0;
+   color:#fff;
+   height:200px;
 }
 .infoFlip, .infoFlip2, .infoFlip3 {
   display: inline-block;
   margin: 3em;
 }
 .info {
+    font-family: 'Passion One', cursive;
+    text-align: center;
     display: flex;
     justify-content: space-between;
+}
+#details {
+  font-size: 1em;
 }
